@@ -21,8 +21,9 @@ function stringManipulator(name, age, town) {
             I am ${age} years old and I am living in ${town}`
 }
 
-// console.log(stringManipulator('Pesho', 16, 'Svilengrad'))
+console.log(stringManipulator('Pesho', 16, 'Svilengrad'));
 
+// run in browser :D
 function rockPaperScissor(){
    const bot_choice = Math.floor(Math.random() * 3);
    const user_choice = prompt("Type your choice in numbers(Any 1 of them): \n 1.Rock \n 2.Paper \n 3.Scissor");
